@@ -6,7 +6,7 @@ This project fine-tunes the Whisper model on a dataset of in-car conversations a
 ## Setup and Hardware
 - **GPU**: RTX 3060 ti 8GB (approximately 4GB used for training)
 - **Model**: Whisper-base (due to VRAM limitations)
-- **Dataset**: A pre-processed dataset of in-car conversations and commands (total: 32,000 training samples, 4,000 validation, 4,000 test)
+- **Dataset**: A pre-processed dataset of in-car conversations and commands (total: 32,000 training samples (26hours), 4,000 validation, 4,000 test)
 - **Training Time**: 11 hours (10 epochs)
 - **Metrics**: Character Error Rate (CER)
 - **Training Process**: 
